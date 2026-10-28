@@ -1,6 +1,6 @@
-var x = 1;
-var y = 2;
-function bad(a, b) {
-  console.log("плохой код", a + b);
-}
-bad(1, 2);
+const x = 1;
+const y = 2;
+const sum = x + y;
+
+console.log("Сумма: ", sum);
+
